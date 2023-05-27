@@ -180,3 +180,50 @@ z-index: 30;
   background: url(../images/red-brick.webp) no-repeat;
   background-size: cover;
 }
+
+.game-area {
+  width: 40%;
+  height: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  margin: auto;
+  background-color: var(--clr-medium);
+  perspective: 1000px;
+  transform: scale(0.5);
+  box-shadow: 0 0 15px #000;
+
+}
+
+.memory-card {
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.774);
+  transform-style: preserve-3d;
+  transition: transform 0.3s;
+}
+
+.memory-card:active {
+  transform: scale(0.95);
+  transition: 0.2s;
+}
+
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 5px;
+  background: #1c7dcc;
+  backface-visibility: hidden;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+.front-face {
+  padding: 5px;
+  transform: rotateY(180deg);
+}

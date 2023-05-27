@@ -156,3 +156,15 @@ z-index: 30;
 .button-enter:hover {
   transform: scale(1.2);
 }
+
+/* Split main screen */
+
+.transform-left {
+  transition: all 1s ease-out;
+  transform: translateX(-100%);
+}
+
+.transform-right {
+  transition: all 1s ease-out;
+  transform: translateX(100%);
+}

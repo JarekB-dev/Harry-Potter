@@ -19,7 +19,7 @@ document.getElementById('button-enter').addEventListener('click', () => {
  * Function that adds flip class to clicked card
  */
 function flipCard() {
-  // if (lockBoard) return;
+  if (lockBoard) return;
   if (this === firstCard) return;
   this.classList.add('flip');
         

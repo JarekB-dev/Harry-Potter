@@ -13,6 +13,7 @@ document.getElementById('button-enter').addEventListener('click', () => {
   document.getElementById('image-left').classList.add('transform-left');
   document.getElementById('image-right').classList.add('transform-right');
   document.getElementById('main-screen').style.display = "none";
+  nameScreenLoad();
 });
 
 /**
@@ -32,3 +33,15 @@ function flipCard() {
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+
+/**
+ * Shows modal asking player to input their name.
+ */
+function nameScreenLoad() {
+  setTimeout( function() {
+    document.getElementById('name-screen').classList.add('opacity');
+    document.getElementById('name-screen').style.visibility = "visible";
+    document.getElementById('player-name').focus();
+  }, 1500);
+}

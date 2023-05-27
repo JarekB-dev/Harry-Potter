@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lakki+Reddy&display=swap');
 
 /* reset CSS */
 
@@ -52,6 +53,7 @@ h6 {
 
 :root {
   --clr-dark: #740001;
+  --clr-medium: #D3A625;
   --clr-light: #EEBA30;
 }
 
@@ -118,6 +120,8 @@ z-index: 30;
   width: 100%;
 }
 
+/* Logo animation */
+
 .levitate {
   animation: levitate 2.5s ease-in-out infinite;
 }
@@ -132,4 +136,23 @@ z-index: 30;
   to {
     transform: translate(0, -0px);
   }
+}
+
+/* Main screen button */
+.button-enter {
+  width: 50%;
+  margin: 3rem;
+  border: 8px solid var(--clr-medium);
+  border-radius: 25px;
+  box-shadow: 0 0 15px var(--clr-medium);
+  color: antiquewhite;
+  background-image: linear-gradient( to right, var(--clr-dark) 0%, #ad393b 51%, var(--clr-dark) 100%);
+  font-size: 3rem;
+  font-family: "Lakki Reddy";
+  padding-top: 1.5rem;
+  text-shadow: 0 0 10px #000;
+}
+
+.button-enter:hover {
+  transform: scale(1.2);
 }

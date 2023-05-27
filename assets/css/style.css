@@ -282,8 +282,8 @@ z-index: 30;
 }
 
 #player-name {
+  padding-top: 1rem;
   text-align: center;
-  display: block;
   margin: auto;
 }
 

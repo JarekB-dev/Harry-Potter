@@ -16,6 +16,7 @@ body {
   height: 100%;
   overflow: hidden;
   z-index: -10;
+  font-family: "Lakki Reddy";
 }
 body {
   line-height: 1.5;
@@ -255,13 +256,53 @@ z-index: 30;
   }
 }
 
+/* Name screen modal */
+
 .name-screen-modal {
-  width: 25%;
+  width: 20%;
   margin: 5% auto;
   background-image: url(../images/brick.webp);
   border: 5px solid var(--clr-medium);
+  border-radius: 5px;
   padding: 1rem;
   color: var(--clr-medium);
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-shadow: 0 0 3px #000;
+}
+
+.hogwarts-houses {
+  width: 80%;
+  margin: auto;
+}
+
+.name-section {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+#player-name {
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+
+/* Name screen button */
+
+#button-next {
+  width: 70%;
+  margin: 1rem auto;
+  border: 3px solid var(--clr-medium);
+  border-radius: 5px;
+  background: var(--clr-medium);
+  color: antiquewhite;
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-shadow: 0 0 5px #000;
+  box-shadow: 0 0 5px #000;
+  cursor: pointer;
+}
+
+#button-next:hover {
+  transform: scale(1.2);
 }

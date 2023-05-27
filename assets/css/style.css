@@ -71,6 +71,10 @@ right: 5%;
 z-index: 30;
 }
 
+#pause-sound {
+  display: none;
+}
+
 .sound-icons {
   color: var(--clr-light);
   text-shadow: 0 0 5px #000;
@@ -86,7 +90,7 @@ z-index: 30;
 .center-logo {
   width: 33%;
   height: 30rem;
-  margin: 15rem auto;
+  margin: 20rem auto;
   padding: 1rem;
   text-align: center;
 }
@@ -107,4 +111,25 @@ z-index: 30;
   width: 50vw;
   height: 100vh;
   z-index: -1;
+}
+
+.logo {
+  margin: auto;
+  width: 100%;
+}
+
+.levitate {
+  animation: levitate 2.5s ease-in-out infinite;
+}
+
+@keyframes levitate {
+  from {
+    transform: translate(0, 0px);
+  }
+  45% {
+    transform: translate(0, 20px);
+  }
+  to {
+    transform: translate(0, -0px);
+  }
 }

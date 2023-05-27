@@ -254,3 +254,14 @@ z-index: 30;
     opacity: 100%;
   }
 }
+
+.name-screen-modal {
+  width: 25%;
+  margin: 5% auto;
+  background-image: url(../images/brick.webp);
+  border: 5px solid var(--clr-medium);
+  padding: 1rem;
+  color: var(--clr-medium);
+  font-size: 1.5rem;
+  text-shadow: 0 0 3px #000;
+}

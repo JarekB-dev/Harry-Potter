@@ -1,3 +1,6 @@
+
+/* reset CSS */
+
 *,
 *::before,
 *::after {
@@ -8,7 +11,10 @@
 }
 html,
 body {
+  position: relative;
   height: 100%;
+  overflow: hidden;
+  z-index: -10;
 }
 body {
   line-height: 1.5;
@@ -40,4 +46,65 @@ h6 {
 #root,
 #__next {
   isolation: isolate;
+}
+
+/* Variables */
+
+:root {
+  --clr-dark: #740001;
+  --clr-light: #EEBA30;
+}
+
+/* Utilities */
+.no-display {
+  display: none;
+}
+
+/* Toggle sound */
+
+.toggle-sound {
+width: 5rem;
+height: 5rem;
+position: absolute;
+top: 2%;
+right: 5%;
+z-index: 30;
+}
+
+.sound-icons {
+  color: var(--clr-light);
+  text-shadow: 0 0 5px #000;
+}
+/* Main Screen */
+
+.main-screen {
+  height: 100vh;
+  width: 100vw;
+  z-index: 15;
+}
+
+.center-logo {
+  width: 33%;
+  height: 30rem;
+  margin: 15rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.image-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.image-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50vw;
+  height: 100vh;
+  z-index: -1;
 }

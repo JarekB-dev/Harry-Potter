@@ -45,3 +45,4 @@ function nameScreenLoad() {
     document.getElementById('player-name').focus();
   }, 1500);
 }
+

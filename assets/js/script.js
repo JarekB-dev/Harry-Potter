@@ -46,3 +46,12 @@ function nameScreenLoad() {
   }, 1500);
 }
 
+/**
+ * Function that takes input from text firld and set it
+ * as player name on game Explanation Screen
+ */
+function playerName() {
+  let name = document.getElementById('player-name').value
+  document.getElementById('chosen-name').innerHTML = name;
+}
+

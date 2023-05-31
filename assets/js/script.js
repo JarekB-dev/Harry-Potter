@@ -47,7 +47,17 @@ function nameScreenLoad() {
 }
 
 /**
- * Function that takes input from text firld and set it
+ * After inputting players name
+ * button hides modal and progress to game explanation screen
+ */
+function nameScreenHide() {
+  document.getElementById('name-screen').style.display = "none";
+  playerName();
+  showHarry();
+}
+
+/**
+ * Function that takes input from text field and set it
  * as player name on game Explanation Screen
  */
 function playerName() {
@@ -55,3 +65,10 @@ function playerName() {
   document.getElementById('chosen-name').innerHTML = name;
 }
 
+/**
+ * Function that opens up game explanation screen
+ * with transform animation
+ */
+function showHarry() {
+  document.getElementById('game-explanation').classList.add('show-harry');
+}

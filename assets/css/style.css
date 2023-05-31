@@ -333,3 +333,15 @@ z-index: 30;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
   font-size: 1.5rem;
 }
+
+#restart-game {
+  font-size: 2rem;
+  margin: auto;
+  display: block;
+  border: 25px solid var(--clr-medium);
+  border-radius: 15px;
+  background-color: var(--clr-medium);
+  color: var(--clr-dark);
+  box-shadow: 0 0 20px #000;
+  padding-top: 1rem;
+}

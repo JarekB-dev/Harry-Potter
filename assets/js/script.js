@@ -4,8 +4,18 @@ let firstCard;
 let secondCard;
 const cards = document.querySelectorAll('.memory-card');
 
-
-
+/**
+ * Add event listener on load to Next button and
+ * enables user to progress by clicking enter key.
+ */
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById('player-name').addEventListener('keydown', (event) => {
+    if(event.key === "Enter") {
+      nameScreenHide();
+    }
+  })
+  document.getElementById('button-next').addEventListener('click', nameScreenHide)
+})
 
 
 

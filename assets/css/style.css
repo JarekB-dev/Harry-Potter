@@ -401,6 +401,10 @@ z-index: 30;
   padding-top: 1rem;
 }
 
+#restart-game:hover {
+  transform: scale(1.2);
+}
+
 /* Game Explanation Screen */
 
 .game-explanation {

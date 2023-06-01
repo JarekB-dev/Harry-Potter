@@ -94,8 +94,8 @@ z-index: 30;
 
 .center-logo {
   width: 33%;
-  height: 30rem;
-  margin: 20rem auto;
+  height: 25%;
+  margin: 15% auto;
   padding: 1rem;
   text-align: center;
 }
@@ -513,16 +513,19 @@ z-index: 30;
 /* Media query for devices with screen up to 1400px */
 @media only screen and (max-width: 1400px) {
   .center-logo {
-    width: 45%;
+    width: 50%;
   }
   .name-screen-modal {
     width: 35%;
-    margin-top: 8%;
+    margin-top: 5%;
   }
   .congratulations {
-    margin: 25% auto;
+    margin: 15% auto;
   }
   .game-area {
     width: 50%;
+  }
+  .text-explanation {
+    font-size: 2rem;
   }
 }

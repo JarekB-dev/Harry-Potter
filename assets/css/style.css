@@ -14,7 +14,7 @@
 html,
 body {
   position: relative;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
   z-index: -10;
   font-family: "Lakki Reddy";
@@ -104,7 +104,7 @@ z-index: 30;
   position: absolute;
   top: 0;
   left: 0;
-  width: 50vw;
+  width: 51vw;
   height: 100vh;
   z-index: -1;
 }
@@ -113,7 +113,7 @@ z-index: 30;
   position: absolute;
   top: 0;
   right: 0;
-  width: 50vw;
+  width: 51vw;
   height: 100vh;
   z-index: -1;
 }
@@ -569,5 +569,34 @@ z-index: 30;
   .timer {
     top: -12%;
     font-size: 3rem;
+  }
+}
+
+/* Media query devices with screens up to 400px */
+@media only screen and (max-width: 400px) {
+  .center-logo {
+    width: 90%;
+  }
+  .name-screen-modal {
+    width: 80%;
+  }
+  .text-explanation {
+    font-size: 1.5rem;
+  }
+  .text-2 {
+    font-size: 2rem;
+  }
+  .game-time {
+    font-size: 2rem;
+    margin: 0.5rem;
+  }
+  .timer {
+    font-size: 2rem;
+  }
+  .congratulations {
+    width: 80%;
+  }
+  .game-area {
+    height: 50%;
   }
 }

@@ -43,6 +43,7 @@ function flipCard() {
     return;
   }
   secondCard = this;
+  checkMatch();
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
@@ -62,6 +63,8 @@ function checkMatch() {
 		}
 	return;
 	}
+
+  unmatchedCards();
 }
 
 /**
@@ -71,6 +74,30 @@ function checkMatch() {
 function matchedCards() {
 	firstCard.removeEventListener('click', flipCard);
 	secondCard.removeEventListener('click', flipCard);
+  resetGameArea();
+}
+
+/**
+ * Function that turns cards back if they are not the same.
+ * Lock the board until cards are flipped back
+ */
+function unmatchedCards() {
+	lockBoard = true;
+	setTimeout(() => {
+		firstCard.classList.remove('flip');
+		secondCard.classList.remove('flip');
+    resetGameArea();
+	}, 1200);
+}
+
+/**
+ * Reset the game after each flipped pair of cards
+ */
+function resetGameArea() {
+  hasFlippedCard = false;
+  lockBoard = false;
+  firstCard = null;
+  secondCard = null;
 }
 
 /**

@@ -379,7 +379,7 @@ z-index: 30;
   margin: 10% auto;
   padding: 1rem;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border: 3px solid var(--clr-medium);
   border-radius: 5px;
   background: linear-gradient(to right, var(--clr-dark), #942224);
@@ -394,7 +394,7 @@ z-index: 30;
 .span-congratulations {
   color: var(--clr-light);
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /* Restart Game button */
@@ -527,5 +527,15 @@ z-index: 30;
   }
   .text-explanation {
     font-size: 2rem;
+  }
+}
+
+/* Media query for devices with screens up to 1024px */
+@media only screen and (max-width: 1024px) {
+  .text-explanation {
+    font-size: 1.8rem;
+  }
+  .congratulations {
+    width: 55%;
   }
 }

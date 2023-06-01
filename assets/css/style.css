@@ -87,8 +87,8 @@ z-index: 30;
 /* Main Screen */
 
 .main-screen {
-  height: 100vh;
-  width: 100vh;
+  height: 100%;
+  width: 100%;
   z-index: 15;
 }
 
@@ -309,7 +309,7 @@ z-index: 30;
 
 .name-screen-modal {
   width: 20vw;
-  height: 80vh;
+  height: 60vh;
   margin: 5% auto;
   background-image: url(../images/brick.webp);
   border: 5px solid var(--clr-medium);

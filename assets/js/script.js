@@ -203,6 +203,7 @@ function startGame() {
 	cards.forEach(card => card.addEventListener('click', flipCard));
 	shuffleCards();
 	timer();
+  resetMessages();
 }
 
 /**
@@ -229,6 +230,14 @@ function showWinMessage() {
   document.getElementById('game-result').style.display = 'block';
   document.getElementById('congratulations').style.display = "block";
   document.getElementById('congratulation-message').style.display = "block"
+}
+
+/**
+ * Function resets game result messages to display: none.
+ */
+function resetMessages() {
+  document.getElementById('lose-game').style.display = "none";
+  document.getElementById('congratulation-message').style.display = "none";
 }
 
 /**

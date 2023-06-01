@@ -72,6 +72,7 @@ cards.forEach(card => card.addEventListener('click', flipCard));
  */
 function checkMatch() {
   if (firstCard.dataset.image === secondCard.dataset.image) {
+    if(isSoundOn) { matchSound.play() };
 		countedPairs += 1;
     firstCard.classList.add('glow'); //add glow effect to matched cards
 		secondCard.classList.add('glow');

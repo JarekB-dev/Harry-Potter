@@ -309,6 +309,7 @@ z-index: 30;
 
 .name-screen-modal {
   width: 20%;
+  height: 80%;
   margin: 5% auto;
   background-image: url(../images/brick.webp);
   border: 5px solid var(--clr-medium);
@@ -321,11 +322,12 @@ z-index: 30;
 
 .hogwarts-houses {
   width: 80%;
-  margin: 10% auto;
+  height: 40%;
+  margin: auto;
 }
 
 .name-section {
-  margin-top: 10%;
+  margin-top: 5%;
   width: 100%;
   text-align: center;
 }

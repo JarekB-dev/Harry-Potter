@@ -216,14 +216,14 @@ function timer() {
  * Function starts the game, shuffle cards and starts the timer.
  */
 function startGame() {
-  countedPairs = 0;
+  countedPairs = 0; // reset matched pairs to 0
   document.getElementById('game-result').style.display = 'none';
   lockBoard = false;
 	cards.forEach(card =>  { 
-    card.classList.remove('flip');
-    card.classList.remove('glow');
+    card.classList.remove('flip'); // remove flip class from cards
+    card.classList.remove('glow'); // remove glow class from cards
   })
-	cards.forEach(card => card.addEventListener('click', flipCard));
+	cards.forEach(card => card.addEventListener('click', flipCard)); // add event listener to all cards.
 	shuffleCards();
 	timer();
   resetMessages();

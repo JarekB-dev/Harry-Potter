@@ -149,7 +149,7 @@ z-index: 30;
 /* Main screen button */
 .button-enter {
   width: 50%;
-  margin: 3rem;
+  margin: 3rem auto;
   border: 8px solid var(--clr-medium);
   border-radius: 25px;
   box-shadow: 0 0 15px var(--clr-medium);
@@ -473,7 +473,7 @@ z-index: 30;
   padding-top: 1rem;
   margin: 3rem auto 0;
   width: 80%;
-  font-size: 3rem;
+  font-size: 2rem;
   background-image: linear-gradient(
     to right,
     #56ab2f 0%,
@@ -510,8 +510,8 @@ z-index: 30;
 
 /* MEDIA QUERIES */
 
-/* Media query for devices with screen up to 1400px */
-@media only screen and (max-width: 1400px) {
+/* Media query for devices with screen up to 1440px */
+@media only screen and (max-width: 1440px) {
   .center-logo {
     width: 50%;
   }
@@ -544,11 +544,14 @@ z-index: 30;
   }
 }
 
-/* Media query for devices with screens up to 820px */
-@media only screen and (max-width: 820px) {
+/* Media query for devices with screens up to 850px */
+@media only screen and (max-width: 850px) {
   .center-logo {
     width: 70%;
     margin-top: 45%;
+  }
+  .button-enter {
+    width: 80%;
   }
   .name-screen-modal {
     width: 50%;
@@ -576,8 +579,14 @@ z-index: 30;
   }
 }
 
-/* Media query devices with screens up to 400px */
-@media only screen and (max-width: 400px) {
+/* Media query devices with screens up to 600px */
+@media only screen and (max-width: 600px) {
+  
+}
+
+
+/* Media query devices with screens up to 430px */
+@media only screen and (max-width: 430px) {
   .center-logo {
     width: 90%;
   }

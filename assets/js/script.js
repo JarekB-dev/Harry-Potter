@@ -5,6 +5,7 @@ let secondCard;
 const cards = document.querySelectorAll('.memory-card');
 let countedPairs = 0;
 let countDown;
+let pastMainScreen; //will pause theme song after main screen.
 
 // Audio files
 const matchSound = new Audio('assets/sounds/match-sound.mp3');
@@ -260,4 +261,32 @@ function resetMessages() {
 document.getElementById('restart-game').addEventListener('click', () => {
   document.getElementById('congratulations').style.display = "none";
   startGame();
+})
+
+/**
+ * function toggle sounds and pause/play theme sound on Main screen
+ */
+function toggleSound() {
+  isSoundOn = !isSoundOn;
+  if(!pastMainScreen) {
+    themeSound.currentTime = 0;
+    themeSound.play();
+  }
+  if(!isSoundOn) {
+    themeSound.pause();
+  }
+}
+
+// eventListener to Play icon 
+playIcon.addEventListener('click', () => {
+  toggleSound();
+  playIcon.style.display = "none"
+  pauseIcon.style.display = "block"
+})
+
+// eventListener to Pause icon
+pauseIcon.addEventListener('click', () => {
+  toggleSound();
+  pauseIcon.style.display = "none";
+  playIcon.style.display = "block";
 })

@@ -54,6 +54,8 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 function checkMatch() {
   if (firstCard.dataset.image === secondCard.dataset.image) {
 		countedPairs += 1;
+    firstCard.classList.add('glow'); //add glow effect to matched cards
+		secondCard.classList.add('glow');
 		matchedCards();
 		if (countedPairs === 6) {   //If amount of matched pairs on the boards is equal to 6
       cards.forEach(card => { 

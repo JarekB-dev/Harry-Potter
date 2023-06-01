@@ -1,10 +1,12 @@
+// Global Variables
+
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard;
 let secondCard;
 const cards = document.querySelectorAll('.memory-card');
-let countedPairs = 0;
-let countDown;
+let countedPairs = 0; //amount of matched card pairs.
+let countDown; // game timer
 let pastMainScreen; //will pause theme song after main screen.
 
 // Audio files
@@ -14,7 +16,7 @@ const harrySlide = new Audio('assets/sounds/page-flip.mp3');
 const WinSound = new Audio('assets/sounds/win-sound.mp3');
 const loseSound = new Audio('assets/sounds/lose-sound.mp3');
 
-let isSoundOn = false;
+let isSoundOn = false; // to check if sound is on or off.
 
 // audio toggle icons
 const themeSound = document.getElementById('theme-sound');
@@ -36,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
 })
 
 
-
+// eventListener to main screen button that will split the screen,hide logo and button
 document.getElementById('button-enter').addEventListener('click', () => {
   pastMainScreen = true;
   themeSound.pause();
@@ -65,7 +67,6 @@ function flipCard() {
   checkMatch();
 }
 
-cards.forEach(card => card.addEventListener('click', flipCard));
 
 /**
  * Check if both flipped cards match
@@ -73,7 +74,7 @@ cards.forEach(card => card.addEventListener('click', flipCard));
 function checkMatch() {
   if (firstCard.dataset.image === secondCard.dataset.image) {
     if(isSoundOn) { matchSound.play() };
-		countedPairs += 1;
+		countedPairs += 1; // add 1 to matched card pairs.
     firstCard.classList.add('glow'); //add glow effect to matched cards
 		secondCard.classList.add('glow');
 		matchedCards();
@@ -83,7 +84,7 @@ function checkMatch() {
         card.classList.remove('flip')
       });
       if(isSoundOn) { WinSound.play() };
-      clearInterval(countDown);
+      clearInterval(countDown); //reset the timer
       showWinMessage();
 		}
 	return;

@@ -506,3 +506,23 @@ z-index: 30;
   transition: all 1s ease-out;
   transform: translateY(100%);
 }
+
+
+/* MEDIA QUERIES */
+
+/* Media query for devices with screen up to 1400px */
+@media only screen and (max-width: 1400px) {
+  .center-logo {
+    width: 45%;
+  }
+  .name-screen-modal {
+    width: 35%;
+    margin-top: 8%;
+  }
+  .congratulations {
+    margin: 25% auto;
+  }
+  .game-area {
+    width: 50%;
+  }
+}

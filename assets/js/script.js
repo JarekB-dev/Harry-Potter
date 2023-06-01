@@ -230,3 +230,12 @@ function showWinMessage() {
   document.getElementById('congratulations').style.display = "block";
   document.getElementById('congratulation-message').style.display = "block"
 }
+
+/**
+ * Add eventListener to Restart Game button and hides
+ * game result message.
+ */
+document.getElementById('restart-game').addEventListener('click', () => {
+  document.getElementById('congratulations').style.display = "none";
+  startGame();
+})

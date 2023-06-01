@@ -437,7 +437,7 @@ z-index: 30;
 .text-explanation {
   text-align: center;
   font-family: "Lakki Reddy";
-  font-size: 2rem;
+  font-size: 3rem;
   margin-top: 5rem;
   padding: 2.5rem 1rem;
   color: whitesmoke;
@@ -454,6 +454,13 @@ z-index: 30;
   font-size: 3rem;
   color: #1c7dcc;
   font-weight: bold;
+}
+
+.game-time {
+  font-size: 3rem;
+  color: red;
+  font-weight: bold;
+  margin: 0 1rem;
 }
 
 /* Start Game button */

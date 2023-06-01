@@ -23,6 +23,7 @@ document.getElementById('button-enter').addEventListener('click', () => {
   document.getElementById('image-left').classList.add('transform-left');
   document.getElementById('image-right').classList.add('transform-right');
   document.getElementById('main-screen').style.display = "none";
+  document.getElementById('game-area').classList.add('transform-game-area');
   nameScreenLoad();
 });
 
@@ -81,6 +82,7 @@ function playerName() {
  */
 function showHarry() {
   document.getElementById('game-explanation').classList.add('show-harry');
+  explanationScreenHide();
 }
 
 /**

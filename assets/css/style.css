@@ -196,6 +196,13 @@ z-index: 30;
 
 }
 
+/* Transform game are to scale after pressing Enter button on main screen */
+
+.transform-game-area {
+  transition: all 1s ease-out;
+  transform: scale(1.2);
+}
+
 .memory-card {
   width: calc(25% - 10px);
   height: calc(33.333% - 10px);

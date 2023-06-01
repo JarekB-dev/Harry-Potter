@@ -3,6 +3,8 @@ let lockBoard = false;
 let firstCard;
 let secondCard;
 const cards = document.querySelectorAll('.memory-card');
+let countedPairs = 0;
+
 
 /**
  * Add event listener on load to Next button and
@@ -44,6 +46,23 @@ function flipCard() {
 }
 
 cards.forEach(card => card.addEventListener('click', flipCard));
+
+/**
+ * Check if both flipped cards match
+ */
+function checkMatch() {
+  if (firstCard.dataset.image === secondCard.dataset.image) {
+		countedPairs += 1;
+		matchedCards();
+		if (countedPairs === 6) {   //If amount of matched pairs on the boards is equal to 6
+      cards.forEach(card => { 
+        card.removeEventListener('click', flipCard);
+        card.classList.remove('flip')
+      });
+		}
+	return;
+	}
+}
 
 
 /**

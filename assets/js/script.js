@@ -13,6 +13,13 @@ const harrySlide = new Audio('assets/sounds/page-flip.mp3');
 const WinSound = new Audio('assets/sounds/win-sound.mp3');
 const loseSound = new Audio('assets/sounds/lose-sound.mp3');
 
+let isSoundOn = false;
+
+// audio toggle icons
+const themeSound = document.getElementById('theme-sound');
+const playIcon = document.getElementById("play-sound");
+const pauseIcon = document.getElementById("pause-sound");
+
 
 /**
  * Add event listener on load to Next button and

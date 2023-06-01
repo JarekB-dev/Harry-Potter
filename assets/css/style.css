@@ -511,7 +511,7 @@ z-index: 30;
 /* MEDIA QUERIES */
 
 /* Media query for devices with screen up to 1400px */
-@media only screen and (min-width: 1400px) {
+@media only screen and (max-width: 1400px) {
   .center-logo {
     width: 50%;
   }
@@ -531,7 +531,7 @@ z-index: 30;
 }
 
 /* Media query for devices with screens up to 1024px */
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .text-explanation {
     font-size: 1.8rem;
   }
@@ -541,7 +541,7 @@ z-index: 30;
 }
 
 /* Media query for devices with screens up to 820px */
-@media only screen and (min-width: 820px) {
+@media only screen and (max-width: 820px) {
   .center-logo {
     width: 70%;
     margin-top: 45%;
@@ -573,7 +573,7 @@ z-index: 30;
 }
 
 /* Media query devices with screens up to 400px */
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 400px) {
   .center-logo {
     width: 90%;
   }

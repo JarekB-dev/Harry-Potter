@@ -179,11 +179,12 @@ function timer() {
     timeSeconds.innerHTML = `${seconds} Second`; //Change Seconds to Second while timer reaches 1.
     }
     if (seconds <= 0) {
-    cards.forEach(card => { 
-      card.removeEventListener('click', flipCard);
-      card.classList.remove('flip')
-    });
-    clearInterval(countDown); // Stop the timer
+      loseGame();
+      cards.forEach(card => { 
+        card.removeEventListener('click', flipCard);
+        card.classList.remove('flip')
+      });
+      clearInterval(countDown); // Stop the timer
     }
   }, 1000)
 }
@@ -202,6 +203,14 @@ function startGame() {
 	cards.forEach(card => card.addEventListener('click', flipCard));
 	shuffleCards();
 	timer();
+}
+
+/**
+ * Function being triggered when timer reaches 0
+ */
+function loseGame() {
+  showLoseMessage();
+  lockBoard = true;
 }
 
 /**

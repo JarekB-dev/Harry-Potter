@@ -208,6 +208,21 @@ z-index: 30;
   transform: scale(1.2);
 }
 
+/* game timer */
+
+.timer{
+  background: linear-gradient(to right, #d3a625 0%, #f0bf38 51%, #e6ca7d 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px #000000);
+  top: -15%;
+  left: 15%;
+  position: absolute;
+  font-size: 4vw;
+  font-weight: bold;
+}
+
 .memory-card {
   width: calc(25% - 10px);
   height: calc(33.333% - 10px);

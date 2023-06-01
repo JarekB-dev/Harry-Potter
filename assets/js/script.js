@@ -193,7 +193,7 @@ function explanationScreenHide() {
  */
 function timer() {
   let timeSeconds = document.getElementById('timer');
-  let seconds = 25;
+  let seconds = 59;
   countDown = setInterval(() => {
     seconds--;
     timeSeconds.innerHTML = `${seconds} Seconds`;

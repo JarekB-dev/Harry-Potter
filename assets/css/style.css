@@ -331,9 +331,13 @@ z-index: 30;
 }
 
 #player-name {
-  padding-top: 1rem;
+  width: 80%;
+  padding-top: 8px;
   text-align: center;
   margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #000;
+  
 }
 
 /* Name screen button */

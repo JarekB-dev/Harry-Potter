@@ -381,7 +381,7 @@ z-index: 30;
   text-align: center;
   font-size: 2rem;
   border: 3px solid var(--clr-medium);
-  border-radius: 10px;
+  border-radius: 5px;
   background: linear-gradient(to right, var(--clr-dark), #942224);
   box-shadow: 0 0 20px #000;
   color: #fff;

@@ -64,6 +64,14 @@ function checkMatch() {
 	}
 }
 
+/**
+ * Function that removes eventListener from matched cards
+ *  to prevent them from flipping.
+ */
+function matchedCards() {
+	firstCard.removeEventListener('click', flipCard);
+	secondCard.removeEventListener('click', flipCard);
+}
 
 /**
  * Shows modal asking player to input their name.

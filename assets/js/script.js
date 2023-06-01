@@ -64,6 +64,8 @@ function checkMatch() {
         card.removeEventListener('click', flipCard);
         card.classList.remove('flip')
       });
+      clearInterval(countDown);
+      showWinMessage();
 		}
 	return;
 	}
@@ -200,4 +202,22 @@ function startGame() {
 	cards.forEach(card => card.addEventListener('click', flipCard));
 	shuffleCards();
 	timer();
+}
+
+/**
+ * function shows message when Player has not matched all cards
+ */
+function showLoseMessage() {
+  document.getElementById('game-result').style.display = 'block';
+  document.getElementById('congratulations').style.display = "block";
+  document.getElementById('lose-game').style.display = "block"
+}
+
+/**
+ * Function shows message when Player matched all cards on the board.
+ */
+function showWinMessage() {
+  document.getElementById('game-result').style.display = 'block';
+  document.getElementById('congratulations').style.display = "block";
+  document.getElementById('congratulation-message').style.display = "block"
 }

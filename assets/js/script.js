@@ -106,6 +106,7 @@ function matchedCards() {
  */
 function unmatchedCards() {
 	lockBoard = true;
+
 	setTimeout(() => {
 		firstCard.classList.remove('flip');
 		secondCard.classList.remove('flip');
@@ -168,6 +169,7 @@ function playerName() {
  * with transform animation
  */
 function showHarry() {
+  if(isSoundOn) { harrySlide.play() };
   document.getElementById('game-explanation').classList.add('show-harry');
   explanationScreenHide();
 }

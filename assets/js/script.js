@@ -160,6 +160,7 @@ function explanationScreenHide() {
   document.getElementById('start-button').addEventListener('click', () => {
     document.getElementById('game-explanation').classList.remove('show-harry');
     document.getElementById('game-explanation').classList.add('hide-harry');
+    startGame();
   })
 }
 
@@ -183,4 +184,20 @@ function timer() {
     clearInterval(countDown); // Stop the timer
     }
   }, 1000)
+}
+
+/**
+ * Function starts the game, shuffle cards and starts the timer.
+ */
+function startGame() {
+  countedPairs = 0;
+  document.getElementById('game-result').style.display = 'none';
+  lockBoard = false;
+	cards.forEach(card =>  { 
+    card.classList.remove('flip');
+    card.classList.remove('glow');
+  })
+	cards.forEach(card => card.addEventListener('click', flipCard));
+	shuffleCards();
+	timer();
 }

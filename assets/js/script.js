@@ -101,6 +101,16 @@ function resetGameArea() {
 }
 
 /**
+ * Shuffle cards position randomly.
+ */
+function shuffleCards() {
+  for (let card of cards) {
+    let randomCard = Math.floor(Math.random() * 12);
+    card.style.order = randomCard;
+  }
+}
+
+/**
  * Shows modal asking player to input their name.
  */
 function nameScreenLoad() {

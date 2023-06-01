@@ -82,3 +82,13 @@ function playerName() {
 function showHarry() {
   document.getElementById('game-explanation').classList.add('show-harry');
 }
+
+/**
+ * Function that hides game explanation screen
+ */
+function explanationScreenHide() {
+  document.getElementById('start-button').addEventListener('click', () => {
+    document.getElementById('game-explanation').classList.remove('show-harry');
+    document.getElementById('game-explanation').classList.add('hide-harry');
+  })
+}

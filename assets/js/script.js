@@ -82,6 +82,7 @@ function checkMatch() {
         card.removeEventListener('click', flipCard);
         card.classList.remove('flip')
       });
+      if(isSoundOn) { WinSound.play() };
       clearInterval(countDown);
       showWinMessage();
 		}
@@ -199,6 +200,7 @@ function timer() {
     timeSeconds.innerHTML = `${seconds} Second`; //Change Seconds to Second while timer reaches 1.
     }
     if (seconds <= 0) {
+      if(isSoundOn) { loseSound.play() };
       loseGame();
       cards.forEach(card => { 
         card.removeEventListener('click', flipCard);

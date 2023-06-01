@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 document.getElementById('button-enter').addEventListener('click', () => {
-  document.getElementById('image-left').classList.add('transform-left');
-  document.getElementById('image-right').classList.add('transform-right');
+  document.getElementById('section-left').classList.add('transform-left');
+  document.getElementById('section-right').classList.add('transform-right');
   document.getElementById('main-screen').style.display = "none";
   document.getElementById('game-area').classList.add('transform-game-area');
   nameScreenLoad();

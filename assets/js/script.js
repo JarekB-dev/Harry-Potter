@@ -38,6 +38,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 document.getElementById('button-enter').addEventListener('click', () => {
+  pastMainScreen = true;
+  themeSound.pause();
   document.getElementById('section-left').classList.add('transform-left');
   document.getElementById('section-right').classList.add('transform-right');
   document.getElementById('main-screen').style.display = "none";

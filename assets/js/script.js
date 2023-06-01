@@ -6,6 +6,12 @@ const cards = document.querySelectorAll('.memory-card');
 let countedPairs = 0;
 let countDown;
 
+// Audio files
+const matchSound = new Audio('assets/sounds/match-sound.mp3');
+const slidingEffect = new Audio('assets/sounds/door-slide.mp3');
+const harrySlide = new Audio('assets/sounds/page-flip.mp3');
+const WinSound = new Audio('assets/sounds/win-sound.mp3');
+const loseSound = new Audio('assets/sounds/lose-sound.mp3');
 
 
 /**

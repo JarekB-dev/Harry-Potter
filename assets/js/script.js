@@ -4,6 +4,8 @@ let firstCard;
 let secondCard;
 const cards = document.querySelectorAll('.memory-card');
 let countedPairs = 0;
+let countDown;
+
 
 
 /**
@@ -159,4 +161,26 @@ function explanationScreenHide() {
     document.getElementById('game-explanation').classList.remove('show-harry');
     document.getElementById('game-explanation').classList.add('hide-harry');
   })
+}
+
+/**
+ * Function that starts 1 minute timer
+ */
+function timer() {
+  let timeSeconds = document.getElementById('timer');
+  let seconds = 25;
+  countDown = setInterval(() => {
+    seconds--;
+    timeSeconds.innerHTML = `${seconds} Seconds`;
+    if (seconds === 1) {
+    timeSeconds.innerHTML = `${seconds} Second`; //Change Seconds to Second while timer reaches 1.
+    }
+    if (seconds <= 0) {
+    cards.forEach(card => { 
+      card.removeEventListener('click', flipCard);
+      card.classList.remove('flip')
+    });
+    clearInterval(countDown); // Stop the timer
+    }
+  }, 1000)
 }

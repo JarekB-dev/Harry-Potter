@@ -532,6 +532,10 @@ z-index: 30;
 
 /* Media query for devices with screens up to 1024px */
 @media only screen and (max-width: 1024px) {
+  .center-logo {
+    margin-top: 25%;
+  }
+
   .text-explanation {
     font-size: 1.8rem;
   }

@@ -309,7 +309,7 @@ z-index: 30;
 
 .name-screen-modal {
   width: 20vw;
-  height: 60vh;
+  height: 75vh;
   margin: 5% auto;
   background-image: url(../images/brick.webp);
   border: 5px solid var(--clr-medium);

@@ -143,6 +143,7 @@ z-index: 30;
 }
 
 /* Main screen button */
+
 .button-enter {
   width: 50%;
   margin: 3rem auto;
@@ -575,12 +576,6 @@ z-index: 30;
     font-size: 3rem;
   }
 }
-
-/* Media query devices with screens up to 600px */
-@media only screen and (max-width: 600px) {
-  
-}
-
 
 /* Media query devices with screens up to 430px */
 @media only screen and (max-width: 430px) {

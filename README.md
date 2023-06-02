@@ -176,10 +176,6 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 > Used to create Favicon Logo.
 
-## Font Awesome
-
-> Used to for social media icons in my project.
-
 ## Freeconvert.com
 
 > Used to convert my images to Webp format for smaller sizes and improving loading times.
@@ -201,3 +197,45 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 > iPad with viewport of 768x1024
 
 > iPhone 12 Pro with viewport of 390x844
+
+- Game was fully responsive with expected layout. All buttons work correctly.
+
+- Game logic is working correctly.
+
+- Sound toggle buttons turn sound on and off as expected.
+
+- Game result message working correctly depending on Players actions.
+
+---
+
+## Google Chrome Lighthouse - Desktop
+
+![Lighthouse Desktop](assets/documentation/testing/desktop-validator.png)
+
+---
+
+## Google Chrome Lighthouse - Mobile
+
+![Lighthouse Desktop](assets/documentation/testing/mobile-validator.png)
+
+---
+
+## HTML Validator
+
+![HTML Validator](assets/documentation/testing/html-validator.png)
+> Warnings regarding using a forward slash with a void (single tag) elements.
+
+---
+
+## CSS Validator
+
+![CSS Validator](assets/documentation/testing/css-validator.png)
+
+---
+
+## JavaScript Beautify
+
+- All content came out with no syntax errors.
+
+---
+

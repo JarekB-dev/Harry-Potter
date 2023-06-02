@@ -137,7 +137,7 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 ![Name Screen](assets/documentation/features/name-screen-feature.png)
 
-- Game Explanation screen with Harry Potter image, game rules and button to Start the Game.
+- Game Explanation screen with Harry Potter image, game rules and button to Start the Game. On Mobile devices Harry Potter image has been removed due to size constraints.
 
 ![Game Explanation screen](assets/documentation/features/game-explanation-feature.png)
 

@@ -278,3 +278,28 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 5. Timer positioning problems on smaller screen devices - **FIXED**
 
+---
+
+<a name="deployment"></a>
+
+# $${\color{orange}Deployment}$$
+
+## Site was deployed using GitHub pages following steps below:
+
+1. Navigate to repository that can be found here : [Repository](https://github.com/JarekB-dev/Harry-Potter)
+
+2. Click on `Settings` in the navigation menu of _Kitchen Makers_ repository.
+
+3. Select `Pages` in the left side navigation bar.
+
+4. From the `Source` drop-down menu, select the `Deploy from a branch`.
+
+5. From `Branch` drop-down select `main` branch.
+
+6. Next drop-down menu should be `/(root)`.
+
+7. Select `Save`.
+
+8. After couple of minutes link to live website was shown above `Source` section.
+
+## For more information please follow this link: [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)

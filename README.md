@@ -34,13 +34,13 @@
 
 # $${\color{orange}UX}$$
 
-* User should be able to navigate in the game with no issues.
-* User should see full game area with cards in the middle of the screen.
-* User should be able to start the game with timer set to 60 seconds to finish the game.
-* User should to flip cards to see their corresponding images.
-* User should be able to see game result after fining all matching cards or when timer ends.
-* User should be able to restart the game and reset the timer.
-* User should be able to turn on and off the sounds in the game.
+- User should be able to navigate in the game with no issues.
+- User should see full game area with cards in the middle of the screen.
+- User should be able to start the game with timer set to 60 seconds to finish the game.
+- User should to flip cards to see their corresponding images.
+- User should be able to see game result after fining all matching cards or when timer ends.
+- User should be able to restart the game and reset the timer.
+- User should be able to turn on and off the sounds in the game.
 
 ## Theme
 
@@ -55,7 +55,6 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
     - Lakki Reddy
 
 ## Wireframes
-
 
 ### Main Screen - Desktop View
 
@@ -86,5 +85,35 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 ### Game result - Desktop View
 
 ![Name Screen](assets/documentation/wireframes/game-result.png)
+
+---
+
+### Main Screen - Mobile View
+
+![Main Screen Mobile](assets/documentation/wireframes/main-screen-mobile.png)
+
+---
+
+### Name Screen - Mobile View
+
+![Name Screen Mobile](assets/documentation/wireframes/name-screen-mobile.png)
+
+---
+
+### Game Explanation Screen - Mobile View
+
+![Game Explanation Screen Mobile](assets/documentation/wireframes/game-explanation-mobile.png)
+
+---
+
+### Game Area - Mobile View
+
+![Game Area Mobile](assets/documentation/wireframes/game-area-mobile.png)
+
+---
+
+### Game Result - Mobile View
+
+![Game Result Mobile](assets/documentation/wireframes/game-result-mobile.png)
 
 ---

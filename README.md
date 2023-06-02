@@ -332,11 +332,11 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 ### iStock
 
-> Background images
+> Background images - (https://www.istockphoto.com/)
 
 ### Inspire Uplift
 
-> Card icons
+> Card icons - (https://www.inspireuplift.com/)
 
 ---
 

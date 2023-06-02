@@ -316,7 +316,7 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 ### Stack Overflow
 
-> Used to overcome issues with horizontal scrolling with hero image. - (https://stackoverflow.com/)
+> Used to overcome issues with JavaScript logic and sound toggle. - (https://stackoverflow.com/)
 
 ### Balsamiq
 
@@ -337,3 +337,31 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 ### Inspire Uplift
 
 > Card icons
+
+---
+
+<a name="credits"></a>
+
+# $${\color{orange}Credits}$$
+
+- Main Screen background - [Pxfuel](https://www.pxfuel.com/en/desktop-wallpaper-zsjdl)
+
+- Name Screen background - [iStock by BabySofja](https://www.istockphoto.com/vector/seamless-blue-brick-wall-background-texture-pattern-gm908352988-250237045?clarity=false)
+
+- Game Area background - [iStock by Anzela Ksenofontova](https://www.istockphoto.com/vector/red-brick-wall-texture-with-spotlight-vintage-textured-background-in-cartoon-style-gm1461448229-495416939?clarity=false)
+
+- Card Icons - [Inspire Uplift by JayFKelsey](https://www.inspireuplift.com/220-Harry-Potter-Cute-Bundle-Svg-Harry-Potter-Clipart/iu/490704)
+
+- Harry Potter logo [Clipartmax](https://www.clipartmax.com/middle/m2H7G6H7Z5H7K9Z5_harry-potter-logo-png/)
+
+- Hogwarts Houses logo [PngFind](https://www.pngfind.com/mpng/TRmiiRi_gryffindor-house-harry-potter-hogwarts-slytherin-crest-harry/)
+
+- Theme sound [CJoint](https://www.cjoint.com/c/KCom1bNTX7X)
+
+- Matching card sound [PixaBay](https://pixabay.com/sound-effects/short-success-sound-glockenspiel-treasure-video-game-6346/)
+
+- Game explanation transformation sound - [PixaBay](https://pixabay.com/sound-effects/platesliding-65587/)
+
+- Win game sound - [PixaBay](https://pixabay.com/sound-effects/tada-fanfare-a-6313/)
+
+- Sound toggle images [Icons8](https://icons8.com/icon/set/volume-off/matisse)

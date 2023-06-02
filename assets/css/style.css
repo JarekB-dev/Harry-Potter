@@ -307,7 +307,7 @@ z-index: 30;
   border-radius: 5px;
   padding: 1rem;
   color: var(--clr-medium);
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-shadow: 0 0 3px #000;
 }
 
@@ -325,7 +325,6 @@ z-index: 30;
 
 #player-name {
   width: 80%;
-  font-size: 1.5rem;
   padding-top: 8px;
   text-align: center;
   margin: auto;

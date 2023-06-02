@@ -623,9 +623,8 @@ z-index: 30;
   height: 100vh;
   color: var(--clr-medium);
   text-shadow: 0 0 5px #000;
-}
-.text-404 {
   font-family: "Lakki Reddy";
+
 }
 
 .container {

@@ -338,6 +338,10 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 > Card icons - (https://www.inspireuplift.com/)
 
+### Bootsnipp
+
+> Creating 404 page - (https://bootsnipp.com/snippets/VgBP3)
+
 ---
 
 <a name="credits"></a>

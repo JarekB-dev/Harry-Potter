@@ -615,8 +615,16 @@ z-index: 30;
 }
 
 /* 404.html styling */
+
+.background-error {
+  background-image: url(../images/red-brick.webp);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: var(--clr-medium);
+  text-shadow: 0 0 5px #000;
+}
 .text-404 {
-  font-size: 4rem;
   font-family: "Lakki Reddy";
 }
 

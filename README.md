@@ -184,3 +184,21 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 ## Freeconvert.com
 
 > Used to convert my images to Webp format for smaller sizes and improving loading times.
+
+---
+
+<a name="testing"></a>
+
+# $${\color{orange}Testing}$$
+
+## Devices
+
+#### In order to check responsiveness on different devices and to ensure that the Game is easy to use, I tested the project myself with the help of my colleagues. The following devices were used for testing:
+
+> Desktop with viewport 2560x1440
+
+> Macbook Air with viewport 1440x900
+
+> iPad with viewport of 768x1024
+
+> iPhone 12 Pro with viewport of 390x844

@@ -24,18 +24,18 @@
     <i id="pause-sound" class="fa-solid fa-volume-high fa-5x sound-icons"></i>
   </div>
   <!-- Main screen with logo and button -->
-  <section class="main-screen" id="main-screen">
+  <div class="main-screen" id="main-screen">
     <div class="center-logo">
       <img src="assets/images/logo.webp" class="logo levitate" id="logo" alt="Harry Potter logo">
       <button class="button-enter" id="button-enter">Enter</button>
     </div>
-  </section>
-    <div id="section-left">
-      <img src="assets/images/cartoon-logo-left.webp" class="main-image" alt="">
-    </div>
-    <div id="section-right">
-      <img src="assets/images/cartoon-logo-right.webp" class="main-image" alt="">
-    </div>
+  </div>
+  <div id="section-left">
+    <img src="assets/images/cartoon-logo-left.webp" class="main-image" alt="">
+  </div>
+  <div id="section-right">
+    <img src="assets/images/cartoon-logo-right.webp" class="main-image" alt="">
+  </div>
   
   <!-- Game screen -->
   <section class="game-screen" id="game-screen">
@@ -198,23 +198,23 @@
           <h2>Hello!</h2>
           <label for="player-name">Please Enter your name:</label>
           <input type="text" name="player" id="player-name">
-          <div id="button-next">Next</div>
+          <button id="button-next">Next</button>
         </div>
       </div>
     </div>
     <!-- game result messages -->
     <div id="game-result">
-    <div class="congratulations" id="congratulations">
-      <!-- win message -->
-      <h2 id="congratulation-message">
-        <span class="span-congratulations">Congratulations!</span><br />
-        Prof. Dumbledore would be proud of you!
-      </h2>
-      <!-- lose message -->
-      <h2 id="lose-game"><span class="span-congratulations">Awwww!</span><br />
-        Please try again!</h2>
-      <button id="restart-game">Restart Game</button>
-    </div>
+      <div class="congratulations" id="congratulations">
+        <!-- win message -->
+        <h2 id="congratulation-message">
+          <span class="span-congratulations">Congratulations!</span><br />
+          Prof. Dumbledore would be proud of you!
+        </h2>
+        <!-- lose message -->
+        <h2 id="lose-game"><span class="span-congratulations">Awwww!</span><br />
+          Please try again!</h2>
+        <button id="restart-game">Restart Game</button>
+      </div>
     </div>
   </section>
   <!-- Game explanation screen -->

@@ -30,6 +30,8 @@
 8. [Credits](#credits)
 9. [Acknowledgments](#acknowledgments)
 
+---
+
 <a name="ux"></a>
 
 # $${\color{orange}UX}$$
@@ -117,3 +119,12 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 ![Game Result Mobile](assets/documentation/wireframes/game-result-mobile.png)
 
 ---
+
+
+<a name="features"></a>
+
+# $${\color{orange}Features}$$
+
+**Main Screen**
+
+- Center logo with button to progress into Game Area.

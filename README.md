@@ -190,6 +190,7 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 #### In order to check responsiveness on different devices and to ensure that the Game is easy to use, I tested the project myself with the help of my colleagues. The following devices were used for testing:
 
+
 > Desktop with viewport 2560x1440
 
 > Macbook Air with viewport 1440x900
@@ -238,4 +239,42 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 - All content came out with no syntax errors.
 
 ---
+
+## User Testing
+
+4 Testers have been asked following questions:
+
+1. _Do you understand the purpose of this website?_
+
+2. _Can you turn on and off the sound in the game?_
+
+3. _Can you fill up Players Name and progress further?_
+
+4. _Do you understand Game rules?_
+
+5. _Is the timer working correctly?_
+
+6. _Are cards flipping correctly due to Player's actions?_
+
+7. _Is game result shows correct message based on Player's actions?_
+
+8. _Did you have any problems with responsiveness on mobile/laptop/desktop?_
+
+9. _Did you experience any performance issues during gameplay?_
+
+### **All above questions have been answered positively with no experienced issues. Testers understood rules of the game. Navigation was easy and predictable and game logic was working as per Player's actions. There were no issues in regards to responsiveness on different screen sizes.**
+
+---
+
+## Bugs
+
+1. Sliding effect on main screen causing horizontal scrolling - **FIXED**
+
+2. Name screen Modal displaying incorrectly on different devices than desktop - **FIXED**
+
+3. Performance issues with fontawesome icons effecting lighthouse. - **FIXED**
+
+4. Theme sound playing during the game, as should be playing only on Main Screen - **FIXED**
+
+5. Timer positioning problems on smaller screen devices - **FIXED**
 

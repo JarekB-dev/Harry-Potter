@@ -325,7 +325,6 @@ z-index: 30;
 
 #player-name {
   width: 80%;
-  height: 2rem;
   font-size: 1.5rem;
   padding-top: 8px;
   text-align: center;
@@ -345,7 +344,7 @@ z-index: 30;
   background: var(--clr-medium);
   color: antiquewhite;
   font-size: 2rem;
-  padding-top: 1rem;
+  /* padding-top: 1rem; */
   text-shadow: 0 0 5px #000;
   box-shadow: 0 0 5px #000;
   cursor: pointer;
@@ -580,6 +579,14 @@ z-index: 30;
   }
   .name-screen-modal {
     width: 80%;
+  }
+  #player-name {
+    height: 1.5rem;
+  }
+  #button-next {
+    font-size: 1.2rem;
+    height: 2.5rem;
+    margin: 5% auto 0;
   }
   .text-explanation {
     font-size: 1.5rem;

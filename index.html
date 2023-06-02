@@ -12,12 +12,14 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+
   <!-- toggle sound icons -->
   <div class="toggle-sound">
     <audio id="theme-sound" src="assets/sounds/harry-potter-theme.mp3" loop></audio>
     <img src="assets/images/icons8-mute-100.png" id="play-sound" alt="Mute sound icon"></img>
     <img src="assets/images/icons8-speaker-100.png" id="pause-sound" alt="Turn sound on icon"></img>
   </div>
+
   <!-- Main screen with logo and button -->
   <div class="main-screen" id="main-screen">
     <div class="center-logo">
@@ -25,9 +27,13 @@
       <button class="button-enter" id="button-enter">Enter</button>
     </div>
   </div>
+
+  <!-- Left sliding section -->
   <div id="section-left">
     <img src="assets/images/cartoon-logo-left.webp" class="main-image" alt="">
   </div>
+  
+  <!-- Right sliding section -->
   <div id="section-right">
     <img src="assets/images/cartoon-logo-right.webp" class="main-image" alt="">
   </div>
@@ -35,8 +41,10 @@
   <!-- Game screen -->
   <section class="game-screen" id="game-screen">
     <div class="game-area" id="game-area">
+
       <!-- timer -->
       <h2 class="timer" id="timer">59 Seconds</h2>
+
       <!-- game cards -->
       <div class="memory-card" data-image="Hagrid">
         <img
@@ -50,6 +58,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Hagrid">
         <img
           class="front-face"
@@ -62,6 +71,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Harry">
         <img
           class="front-face"
@@ -74,6 +84,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Harry">
         <img
           class="front-face"
@@ -99,6 +110,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Hedwig">
         <img
           class="front-face"
@@ -111,6 +123,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Hermione">
         <img
           class="front-face"
@@ -123,6 +136,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Hermione">
         <img
           class="front-face"
@@ -135,6 +149,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Ron">
         <img
           class="front-face"
@@ -147,6 +162,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Ron">
         <img
           class="front-face"
@@ -159,6 +175,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Dobby">
         <img
           class="front-face"
@@ -171,6 +188,7 @@
           alt="Harry Potter logo"
         />
       </div>
+
       <div class="memory-card" data-image="Dobby">
         <img
           class="front-face"
@@ -185,7 +203,7 @@
       </div>
     </div>
   
-  <!-- Name screen modal -->
+    <!-- Name screen modal -->
     <div class="name-screen" id="name-screen">
       <div class="name-screen-modal">
         <img src="assets/images/houses.webp" class="hogwarts-houses" alt="Hogwarts Houses emblem">
@@ -197,14 +215,17 @@
         </div>
       </div>
     </div>
+
     <!-- game result messages -->
     <div id="game-result">
       <div class="congratulations" id="congratulations">
+
         <!-- win message -->
         <h2 id="congratulation-message">
           <span class="span-congratulations">Congratulations!</span><br />
           Prof. Dumbledore would be proud of you!
         </h2>
+
         <!-- lose message -->
         <h2 id="lose-game"><span class="span-congratulations">Awwww!</span><br />
           Please try again!</h2>
@@ -212,6 +233,7 @@
       </div>
     </div>
   </section>
+
   <!-- Game explanation screen -->
   <div class="game-explanation" id="game-explanation">
     <img class="harry-image" src="assets/images/Harry-explain.webp" alt="Harry Potter" />
@@ -227,6 +249,8 @@
       <button class="start-button" id="start-button" tabindex="-1">Start Game</button>
     </div>
   </div> 
+
+  <!-- JavaScript -->
   <script src="assets/js/script.js"></script>
 </body>
 </html>

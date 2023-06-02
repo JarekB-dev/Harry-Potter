@@ -430,7 +430,7 @@ z-index: 30;
 .text-explanation {
   text-align: center;
   font-size: 3rem;
-  margin-top: 5rem;
+  margin-top: 4rem;
   padding: 2.5rem 1rem;
   color: whitesmoke;
   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -438,7 +438,7 @@ z-index: 30;
 }
 
 .hello-player {
-  font-size: 5rem;
+  font-size: 4rem;
   color: #eeba30;
 }
 
@@ -597,5 +597,19 @@ z-index: 30;
   }
   .game-area {
     height: 50%;
+  }
+}
+
+/* Media query for devices with screens up to 340px */
+@media only screen and (max-width: 340px) {
+  .name-screen-modal {
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .hello-player {
+    font-size: 3rem;
+  }
+  .text-explanation {
+    font-size: 1.2rem;
   }
 }

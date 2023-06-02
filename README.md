@@ -54,4 +54,37 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
     - Lakki Reddy
 
-    
+## Wireframes
+
+
+### Main Screen - Desktop View
+
+---
+
+![Main Screen](assets/documentation/wireframes/main-screen.png)
+
+---
+
+### Name Screen - Desktop View
+
+![Name Screen](assets/documentation/wireframes/name-screen.png)
+
+---
+
+### Game Explanation Screen - Desktop View
+
+![Name Screen](assets/documentation/wireframes/game-explanation.png)
+
+---
+
+### Game Area - Desktop View
+
+![Name Screen](assets/documentation/wireframes/game-area.png)
+
+---
+
+### Game result - Desktop View
+
+![Name Screen](assets/documentation/wireframes/game-result.png)
+
+---

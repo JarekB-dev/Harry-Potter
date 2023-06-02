@@ -303,3 +303,37 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 8. After couple of minutes link to live website was shown above `Source` section.
 
 ## For more information please follow this link: [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+
+---
+
+<a name="resources"></a>
+
+# $${\color{orange}Resources}$$
+
+### Reset CSS
+
+> Reset Css by Josh Comeau helped me to override browser default settings - (https://www.joshwcomeau.com/css/custom-css-reset/)
+
+### Stack Overflow
+
+> Used to overcome issues with horizontal scrolling with hero image. - (https://stackoverflow.com/)
+
+### Balsamiq
+
+> Used to create Wireframes for this project. - (https://balsamiq.com/)
+
+### Medium.com
+
+> Helped me tremendously with logic to flip card game. - (https://medium.com/free-code-camp/vanilla-javascript-tutorial-build-a-memory-game-in-30-minutes-e542c4447eae)
+
+### Qualitylogoproducts
+
+> Color theme for the Game. - (https://www.qualitylogoproducts.com/blog/harry-potter-color-schemes/)
+
+### iStock
+
+> Background images
+
+### Inspire Uplift
+
+> Card icons

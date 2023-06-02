@@ -190,7 +190,6 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 #### In order to check responsiveness on different devices and to ensure that the Game is easy to use, I tested the project myself with the help of my colleagues. The following devices were used for testing:
 
-
 > Desktop with viewport 2560x1440
 
 > Macbook Air with viewport 1440x900
@@ -224,6 +223,7 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 ## HTML Validator
 
 ![HTML Validator](assets/documentation/testing/html-validator.png)
+
 > Warnings regarding using a forward slash with a void (single tag) elements.
 
 ---
@@ -365,3 +365,17 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 - Win game sound - [PixaBay](https://pixabay.com/sound-effects/tada-fanfare-a-6313/)
 
 - Sound toggle images [Icons8](https://icons8.com/icon/set/volume-off/matisse)
+
+## All images/sounds were used for educational purposes only.
+
+---
+
+<a name="acknowledgments"></a>
+
+# $${\color{orange}Acknowledgments}$$
+
+## Derek McAuley
+
+> My Mentor that provided me with helpful tips, feedback and support during this project.
+
+## My friends for helping me with testing game features.

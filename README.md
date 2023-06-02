@@ -1,10 +1,10 @@
 # $${\color{gold}Harry \space Potter \space Game}$$
 
-## **This is second project for Code Institute - flip card game with Harry Potter theme.**
+## **This is second project for Code Institute Software Development Course - Flip card memory game with Harry Potter theme.**
 
 ---
 
-### _Game offers great challenge for all Harry Potter fans. Reveal cards with Harry Potter universe characters with time limit._
+### _Game offers great challenge for all Harry Potter fans. Reveal cards with Harry Potter universe characters within time limit._
 
 ---
 

@@ -150,6 +150,10 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 ![Win Message](assets/documentation/features/win-message-feature.png)
 ![Lose Message](assets/documentation/features/lose-message-feature.png)
 
+- 404 page in case of any problem with access to resources.
+
+![404 page](assets/documentation/features/404.png)
+
 ---
 
 <a name="technologies"></a>

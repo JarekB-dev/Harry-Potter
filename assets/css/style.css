@@ -579,9 +579,7 @@ z-index: 30;
   }
   .name-screen-modal {
     width: 80%;
-  }
-  #player-name {
-    height: 1.5rem;
+    max-height: 80vh;
   }
   #button-next {
     font-size: 1.2rem;

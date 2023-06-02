@@ -119,7 +119,6 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 ---
 
-
 <a name="features"></a>
 
 # $${\color{orange}Features}$$
@@ -128,28 +127,28 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 
 - Floating center logo with button to progress into Game Area.
 
-![Center Logo](assets/documentation/wireframes/center-logo-feature.png)
+![Center Logo](assets/documentation/features/center-logo-feature.png)
 
 - Toggle sound icon in the top right corner of the screen.
 
-![Toggle Sound Icon](assets/documentation/wireframes/sound-toggle-feature.png)
+![Toggle Sound Icon](assets/documentation/features/sound-toggle-feature.png)
 
 - Name screen with Hogwarts houses logo, Player name text field and button to progress into Game Explanation Screen. Player is able to enter their name or leave it blank and progress further with button click or Enter key.
 
-![Name Screen](assets/documentation/wireframes/name-screen-feature.png)
+![Name Screen](assets/documentation/features/name-screen-feature.png)
 
-- Game Explanation screen with Harry Potter image, game rules and button to Start the Game. 
+- Game Explanation screen with Harry Potter image, game rules and button to Start the Game.
 
-![Game Explanation screen](assets/documentation/wireframes/game-explanation-feature.png)
+![Game Explanation screen](assets/documentation/features/game-explanation-feature.png)
 
 - Game Area with 12 flip cards and 60 seconds timer.
 
-![Game Area](assets/documentation/wireframes/game-area-feature.png)
+![Game Area](assets/documentation/features/game-area-feature.png)
 
 - Game result message depending if Player has won or lost the game.
 
-![Win Message](assets/documentation/wireframes/win-message-feature.png)
-![Lose Message](assets/documentation/wireframes/lose-message-feature.png)
+![Win Message](assets/documentation/features/win-message-feature.png)
+![Lose Message](assets/documentation/features/lose-message-feature.png)
 
 ---
 

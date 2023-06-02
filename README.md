@@ -22,13 +22,12 @@
 
 1. [UX](#ux)
 2. [Features](#features)
-3. [Features to implement](#implement)
-4. [Technologies Used](#technologies)
-5. [Testing](#testing)
-6. [Deployment](#deployment)
-7. [Resources](#resources)
-8. [Credits](#credits)
-9. [Acknowledgments](#acknowledgments)
+3. [Technologies Used](#technologies)
+4. [Testing](#testing)
+5. [Deployment](#deployment)
+6. [Resources](#resources)
+7. [Credits](#credits)
+8. [Acknowledgments](#acknowledgments)
 
 ---
 
@@ -152,6 +151,7 @@ I wanted to make sure that colors have proper contrast and are easily read by vi
 ![Win Message](assets/documentation/wireframes/win-message-feature.png)
 ![Lose Message](assets/documentation/wireframes/lose-message-feature.png)
 
+---
 
 
 

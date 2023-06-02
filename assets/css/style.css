@@ -613,3 +613,13 @@ z-index: 30;
     font-size: 1.2rem;
   }
 }
+
+/* 404.html styling */
+.text-404 {
+  font-size: 4rem;
+  font-family: "Lakki Reddy";
+}
+
+.container {
+  margin: 5rem auto;
+}

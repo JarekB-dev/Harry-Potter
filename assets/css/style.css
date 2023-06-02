@@ -325,6 +325,8 @@ z-index: 30;
 
 #player-name {
   width: 80%;
+  height: 2rem;
+  font-size: 1.5rem;
   padding-top: 8px;
   text-align: center;
   margin: auto;

@@ -604,7 +604,7 @@ z-index: 30;
 @media only screen and (max-width: 340px) {
   .name-screen-modal {
     width: 90%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .hello-player {
     font-size: 3rem;
